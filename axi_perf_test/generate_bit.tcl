@@ -30,7 +30,7 @@ foreach team [glob -types d -directory $Team_Submission_Dir/ -tail *] {
     file mkdir $Result_Dir/$team/$Test_Item
     #Copy Bitstream
     file copy -force $Test_Project_Dir/$team/run_vivado/mycpu_prj1/mycpu.runs/impl_1/soc_axi_lite_top.bit $Result_Dir/$team/$Test_Item
-    #file copy -force $Test_Project_Dir/$team/run_vivado/mycpu_prj1/mycpu.runs/impl_1/runme.log $Result_Dir/$team/$Test_Item
+    file copy -force $Test_Project_Dir/$team/run_vivado/mycpu_prj1/mycpu.runs/impl_1/runme.log $Result_Dir/$team/$Test_Item
     puts "$team Write BitStream Successfully !!!" }}
     
     close_project
