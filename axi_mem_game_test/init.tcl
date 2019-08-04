@@ -46,6 +46,8 @@ foreach team [glob -types d -directory $Team_Submission_Dir/ -tail *] {
     import_files  -force -quiet [findFiles $Team_Submission_Dir/$team/$Source_Select/rtl/myCPU *.xci]
     import_files  -force -quiet [findFiles $Team_Submission_Dir/$team/$Source_Select/rtl/myCPU *.bd]
     update_compile_order -fileset sources_1
+	#only memory game
+	remove_files ./test_project/soft/func/obj/inst_ram.coe
     #close project
     close_project
 }
