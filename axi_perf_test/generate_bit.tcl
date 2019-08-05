@@ -31,6 +31,8 @@ foreach team [glob -types d -directory $Team_Submission_Dir/ -tail *] {
     #Copy Bitstream
     file copy -force $Test_Project_Dir/$team/run_vivado/mycpu_prj1/mycpu.runs/impl_1/soc_axi_lite_top.bit $Result_Dir/$team/$Test_Item
     file copy -force $Test_Project_Dir/$team/run_vivado/mycpu_prj1/mycpu.runs/impl_1/runme.log $Result_Dir/$team/$Test_Item
+    #copy clk_pll.xci
+    file copy -force $Test_Project_Dir/$team/rtl/xilinx_ip/clk_pll/clk_pll.xci $Result_Dir/$team/$Test_Item
     puts "$team Write BitStream Successfully !!!" }}
     
     close_project
