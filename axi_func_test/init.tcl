@@ -38,6 +38,9 @@ foreach team [glob -types d -directory $Team_Submission_Dir/ -tail *] {
     #copy init project
     file copy -force $Test_Project_Dir/template $Test_Project_Dir/$team
 
+    #copy clk_pll.xci
+    file copy -force $Team_Submission_Dir/$team/$Source_Select/rtl/xilinx_ip/clk_pll/clk_pll.xci $Test_Project_Dir/$team/rtl/xilinx_ip/clk_pll/clk_pll.xci
+
     #open_project
     open_project $Test_Project_Dir/$team/run_vivado/mycpu_prj1/mycpu.xpr
 
