@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="axi_crossbar_1x2_synth_1" LaunchDir="/home/zhangxi/NSCSCC/FINAL/FINAL_A/nscscc_test/axi_perf_test/test_project/template/run_vivado/mycpu_prj1/mycpu.runs/axi_crossbar_1x2_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="axi_ram_synth_1" LaunchDir="/home/zhangxi/NSCSCC/FINAL/FINAL_A/nscscc_test/axi_perf_test/test_project/template/run_vivado/mycpu_prj1/mycpu.runs/axi_ram_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="axi_clock_converter_synth_1" LaunchDir="/home/zhangxi/NSCSCC/FINAL/FINAL_A/nscscc_test/axi_perf_test/test_project/template/run_vivado/mycpu_prj1/mycpu.runs/axi_clock_converter_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Parameters>
+		<Parameter Name="runs.monitorLSFJobs" Val="true" Type="bool"/>
+	</Parameters>
+</Runs>
+
