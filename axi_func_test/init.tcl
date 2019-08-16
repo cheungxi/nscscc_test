@@ -32,7 +32,7 @@ proc findFiles { basedir pattern } {
 
 set Team_Submission_Dir ../team_submission
 set Test_Project_Dir ./test_project
-set Source_Select soc_axi_func
+set Source_Select performance/soc_axi_func
 
 foreach team [glob -types d -directory $Team_Submission_Dir/ -tail *] {
     #copy init project

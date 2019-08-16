@@ -34,7 +34,10 @@ foreach team [glob -types d -directory $Team_Submission_Dir/ -tail *] {
     #copy clk_pll.xci
     file copy -force $Test_Project_Dir/$team/rtl/xilinx_ip/clk_pll/clk_pll.xci $Result_Dir/$team/$Test_Item
     #copy excel file
-    file copy -force $Team_Submission_Dir/$team/score.xls $Result_Dir/$team/$Test_Item
+    #chusai
+    #file copy -force $Team_Submission_Dir/$team/score.xls $Result_Dir/$team/$Test_Item
+    #Final
+    file copy -force $Team_Submission_Dir/$team/performance/score_final.xls $Result_Dir/$team/$Test_Item
     puts "$team Write BitStream Successfully !!!" }}
     
     close_project
