@@ -37,7 +37,7 @@ foreach team [glob -types d -directory $Team_Submission_Dir/ -tail *] {
     #chusai
     #file copy -force $Team_Submission_Dir/$team/score.xls $Result_Dir/$team/$Test_Item
     #Final
-    file copy -force $Team_Submission_Dir/$team/performance/score_final.xls $Result_Dir/$team/$Test_Item
+    file copy -force [glob $Team_Submission_Dir/$team/performance/score*.xls] $Result_Dir/$team/$Test_Item
     puts "$team Write BitStream Successfully !!!" }}
     
     close_project
