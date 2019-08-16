@@ -1,10 +1,10 @@
 -- Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 -- --------------------------------------------------------------------------------
--- Tool Version: Vivado v.2018.3 (lin64) Build 2405991 Thu Dec  6 23:36:41 MST 2018
--- Date        : Fri Aug 16 21:28:45 2019
--- Host        : zhangxi-OptiPlex-790 running 64-bit Ubuntu 18.04.3 LTS
+-- Tool Version: Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+-- Date        : Fri Aug 16 22:26:03 2019
+-- Host        : DESKTOP-R1S5DLE running 64-bit major release  (build 9200)
 -- Command     : write_vhdl -force -mode synth_stub
---               /home/zhangxi/NSCSCC/FINAL/FINAL_A/nscscc_test/axi_perf_test/test_project/template/rtl/xilinx_ip/axi_clock_converter/axi_clock_converter_stub.vhdl
+--               D:/NSCSCC2019/NSCSCC2019_TEST/axi_perf_test/test_project/template/rtl/xilinx_ip/axi_clock_converter/axi_clock_converter_stub.vhdl
 -- Design      : axi_clock_converter
 -- Purpose     : Stub declaration of top-level module interface
 -- Device      : xc7a200tfbg676-2
